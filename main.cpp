@@ -6,12 +6,12 @@ AUTHOR: Adrian Tapia
 
 
 #include<iostream>
-#include "PromptMgr.h"
+#include "prompt.h"
 
 int main()
 {
     std::cout << "Fantasy Sport Autodrafter\n";
-    prompt_mgr::startPromptLoop();
+    prompt::startPromptLoop();
     
     return 0;
 }
